@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<allergen>
+	<item>
+
+		<rId>1</rId>
+
+		<Dishes>Prawn Risotto</Dishes>
+
+		<Celery>X</Celery>
+	    <Gluten> </Gluten>
+	    <Crustaceous>X</Crustaceous>
+		<eggs></eggs>
+		<Fish></Fish>
+		<Lupin>	</Lupin>
+		<milk>X</milk>
+		<Molluscs>X</Molluscs>
+		<Mustard></Mustard>
+		<Nuts></Nuts>
+		<Peanuts></Peanuts>
+		<SesameSeeds></SesameSeeds>
+		<Soya></Soya>
+		<SulphurDioxide></SulphurDioxide>
+
+		</item>
+
+			<item>
+
+		<rId>2</rId>
+
+		<Dishes>Tuna Salad</Dishes>
+
+		<Celery>X</Celery>
+	    <Gluten> </Gluten>
+	    <Crustaceous></Crustaceous>
+		<eggs>X</eggs>
+		<Fish>X</Fish>
+		<Lupin>	</Lupin>
+		<milk>X</milk>
+		<Molluscs></Molluscs>
+		<Mustard>X</Mustard>
+		<Nuts></Nuts>
+		<Peanuts></Peanuts>
+		<SesameSeeds></SesameSeeds>
+		<Soya></Soya>
+		<SulphurDioxide></SulphurDioxide>
+
+		</item>
+
+		<item>
+
+		<rId>2</rId>
+
+		<Dishes>Milk Chocolate</Dishes>
+
+		<Celery></Celery>
+	    <Gluten> </Gluten>
+	    <Crustaceous></Crustaceous>
+		<eggs></eggs>
+		<Fish></Fish>
+		<Lupin>	</Lupin>
+		<milk>X</milk>
+		<Molluscs></Molluscs>
+		<Mustard></Mustard>
+		<Nuts></Nuts>
+		<Peanuts></Peanuts>
+		<SesameSeeds></SesameSeeds>
+		<Soya>X</Soya>
+		<SulphurDioxide></SulphurDioxide>
+
+		</item>
+
+		<item>
+
+		<rId>2</rId>
+
+		<Dishes>Lasagna</Dishes>
+
+		<Celery>X</Celery>
+	    <Gluten>X </Gluten>
+	    <Crustaceous></Crustaceous>
+		<eggs>X</eggs>
+		<Fish></Fish>
+		<Lupin>	</Lupin>
+		<milk>X</milk>
+		<Molluscs></Molluscs>
+		<Mustard></Mustard>
+		<Nuts></Nuts>
+		<Peanuts></Peanuts>
+		<SesameSeeds></SesameSeeds>
+		<Soya></Soya>
+		<SulphurDioxide></SulphurDioxide>
+
+		</item>
+
+		<item>
+
+		<rId>2</rId>
+
+		<Dishes>Wine</Dishes>
+
+		<Celery></Celery>
+	    <Gluten> </Gluten>
+	    <Crustaceous></Crustaceous>
+		<eggs></eggs>
+		<Fish></Fish>
+		<Lupin>	</Lupin>
+		<milk></milk>
+		<Molluscs></Molluscs>
+		<Mustard></Mustard>
+		<Nuts></Nuts>
+		<Peanuts></Peanuts>
+		<SesameSeeds></SesameSeeds>
+		<Soya></Soya>
+		<SulphurDioxide>X</SulphurDioxide>
+
+		</item>
+
+			<item>
+
+		<rId>2</rId>
+
+		<Dishes>Pancake</Dishes>
+
+		<Celery></Celery>
+	    <Gluten>X </Gluten>
+	    <Crustaceous></Crustaceous>
+		<eggs>X</eggs>
+		<Fish></Fish>
+		<Lupin>	</Lupin>
+		<milk>X</milk>
+		<Molluscs></Molluscs>
+		<Mustard></Mustard>
+		<Nuts></Nuts>
+		<Peanuts></Peanuts>
+		<SesameSeeds></SesameSeeds>
+		<Soya></Soya>
+		<SulphurDioxide>X</SulphurDioxide>
+
+		</item>
+
+
+
+</allergen>
