@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="allergen.xsl"?>
+
 <allergen>
 	<item>
 
 		<rId>1</rId>
-
-		<Dishes>Prawn Risotto</Dishes>
+        <Dishes>Prawn Risotto</Dishes>
 
 		<Celery>X</Celery>
 	    <Gluten> </Gluten>
@@ -48,7 +49,7 @@
 
 		<item>
 
-		<rId>2</rId>
+		<rId>3</rId>
 
 		<Dishes>Milk Chocolate</Dishes>
 
@@ -71,7 +72,7 @@
 
 		<item>
 
-		<rId>2</rId>
+		<rId>4</rId>
 
 		<Dishes>Lasagna</Dishes>
 
@@ -94,7 +95,7 @@
 
 		<item>
 
-		<rId>2</rId>
+		<rId>5</rId>
 
 		<Dishes>Wine</Dishes>
 
@@ -117,7 +118,7 @@
 
 			<item>
 
-		<rId>2</rId>
+		<rId>6</rId>
 
 		<Dishes>Pancake</Dishes>
 
@@ -135,6 +136,28 @@
 		<SesameSeeds></SesameSeeds>
 		<Soya></Soya>
 		<SulphurDioxide>X</SulphurDioxide>
+
+		</item>
+<item>
+
+		<rId>7</rId>
+
+		<Dishes>White Bread</Dishes>
+
+		<Celery></Celery>
+	    <Gluten>X </Gluten>
+	    <Crustaceous></Crustaceous>
+		<eggs></eggs>
+		<Fish></Fish>
+		<Lupin>	</Lupin>
+		<milk>X</milk>
+		<Molluscs></Molluscs>
+		<Mustard></Mustard>
+		<Nuts></Nuts>
+		<Peanuts></Peanuts>
+		<SesameSeeds></SesameSeeds>
+		<Soya></Soya>
+		<SulphurDioxide></SulphurDioxide>
 
 		</item>
 

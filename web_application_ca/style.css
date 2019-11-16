@@ -1,15 +1,19 @@
 body{
+
     background-color: rgb(6, 82, 6);
 
 }
 
 #container{
+    background-image: url(superfood.jpg);
+
     background-color: white;
     width: 1000px;
     margin: 0 auto;
 }
 
 header{
+
      background-color:#EEEEEE;
      color:rgb(177, 10, 10);
      border: 4px lightgray dashed;
