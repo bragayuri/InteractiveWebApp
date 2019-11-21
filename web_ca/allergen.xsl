@@ -164,6 +164,7 @@
             <h3> Mark Allergen</h3>
 
             <!--Add form to ask views for input-->
+           
             <form>
                 <form action="/">
                     <div class="checkbox">
@@ -200,7 +201,7 @@
                     </div>
 
                 </form>
-
+                 
                 <input id="submit" type="submit" onclick="insert_Row()" value="Add Dish" />
                 <input type="button" onclick="insert_Row()" value="Insert row">
                     <input type="submit" value="Delete Dish" />
@@ -212,9 +213,7 @@
         </aside>
 
 
-        <footer>
-            <p> Developed by Yuri Braga 2017141 </p>
-        </footer>
+        
         </body>
         </html>
     </xsl:template>
