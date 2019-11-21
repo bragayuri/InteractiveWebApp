@@ -1,117 +1,95 @@
-<?xml version="1.0"?>
+<?xml version="1.0" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
- <xsl:template match="/">
- 
-        <html>
-            <head>
-               
-                
-                  
-
-                 
-                 <title>Allergen Chart Table</title>
-                 
-                </head>
-                <body >
-                    <div id=" container">
-                        <header>
-                             <h1 > Allergen Table </h1>
-                              <style>
-                                 div{
-                                     text-align:center
-                                 }
-                                 
-                                  body{
-                                    
-
-                                   background-color: white;}
-                                  
-                                   th{ 
-                                    
-                                    background-color: #fcf2dc ;
-                                   }
-                                   tr {
-                                    background-color:#f9e6ba; 
-                                   }
-
-                                   header{
+    <xsl:template match="/">
 
 
-                                   background-color:#f2cd75; 
-                                   color:rgb(177, 10, 10);
-                                   border: 4px #e9ab18 dashed;
-                                     text-align: center;
-                                     line-height: 5em;}
-                               </style>
+        <table id="table" border="2" class="indent" style="text-align:center;">
 
-                                <css:chunk font-size="20px"
-                                       color="white"
-                                         text-indent="1em"#
-                                                             >
-                             </header>
 
-                              <div style="text-align:center;">
-                  
-                     <table id="table" border="2" class="indent" style="text-align:center;">
-                        
-                         
-                        <thread  >
-                            
-                            <tr>
-                                 
-                        <th id="id">rId</th>
-                        <th id="dishes">Dishes</th>
-						<th id="celery">Celery</th>
-						<th id="gluten">Gluten</th>
-						<th id="crustaceous">Crustaceous</th>
-						<th id="egg">eggs</th>
-						<th id="fish">Fish</th>
-						<th id="lupin">Lupin</th>
-						<th id="milk">milk</th>
-						<th id="molluscs">Molluscs</th>
-						<th id="mustard">Mustard</th>
-						<th id="nuts">Nuts</th>
-						<th id="peanuts">Peanuts</th>
-						<th id="sesame">SesameSeeds</th>
-						<th id="soya">Soya</th>
-						<th id="sulph">SulphurDioxide</th>
-                                </tr>
-                            </thread>
-                            <tbody>
-                                  <xsl:for-each select="allergen/item">
-             <TR> 
-                  <th id="id"><xsl:value-of select="rId" /></th>   
-                  <th id="dishes"><xsl:value-of select="Dishes" /></th>
-                  <th id="celery"><xsl:value-of select="Celery" /></th>
-                  <th id="gluten"><xsl:value-of select="Gluten" /></th>
-                  <th id="crustaceous"><xsl:value-of select="Crustaceous" /></th>
-                  <th id="egg"><xsl:value-of select="eggs" /></th>
-                  <th id="fish"><xsl:value-of select="Fish" /></th>
-                  <th id="lupin"><xsl:value-of select="Lupin" /></th>
-                  <th id="milk"><xsl:value-of select="milk" /></th>
-                  <th id="molluscs"><xsl:value-of select="Molluscs" /></th>
-                  <th id="mustard"><xsl:value-of select="Mustard" /></th>
-                  <th id="nuts"><xsl:value-of select="Nuts" /></th>
-                  <th id="peanuts"><xsl:value-of select="Peanuts" /></th>
-                  <th id="sesame"><xsl:value-of select="SesameSeeds" /></th>
-                  <th id="soya"><xsl:value-of select="Soya" /></th>
-                  <th id="sulph"><xsl:value-of select="SulphurDioxide" /></th>
-                  
-            </TR>
-            </xsl:for-each>
-                                
-                                
-					
-					
-				</tbody>
-                        </table>
-                        </div>
+            <thread>
 
-                 
-                        </div> 
+                <tr>
 
-                        <Style>
+                    <th id="id">rId</th>
+                    <th id="dishes">Dishes</th>
+                    <th id="celery">Celery</th>
+                    <th id="gluten">Gluten</th>
+                    <th id="crustaceous">Crustaceous</th>
+                    <th id="egg">eggs</th>
+                    <th id="fish">Fish</th>
+                    <th id="lupin">Lupin</th>
+                    <th id="milk">milk</th>
+                    <th id="molluscs">Molluscs</th>
+                    <th id="mustard">Mustard</th>
+                    <th id="nuts">Nuts</th>
+                    <th id="peanuts">Peanuts</th>
+                    <th id="sesame">SesameSeeds</th>
+                    <th id="soya">Soya</th>
+                    <th id="sulph">SulphurDioxide</th>
+                </tr>
+            </thread>
+            <tbody>
+                <xsl:for-each select="allergen/item">
+                    <TR>
+                        <th id="id">
+                            <xsl:value-of select="rId" />
+                        </th>
+                        <th id="dishes">
+                            <xsl:value-of select="Dishes" />
+                        </th>
+                        <th id="celery">
+                            <xsl:value-of select="Celery" />
+                        </th>
+                        <th id="gluten">
+                            <xsl:value-of select="Gluten" />
+                        </th>
+                        <th id="crustaceous">
+                            <xsl:value-of select="Crustaceous" />
+                        </th>
+                        <th id="egg">
+                            <xsl:value-of select="eggs" />
+                        </th>
+                        <th id="fish">
+                            <xsl:value-of select="Fish" />
+                        </th>
+                        <th id="lupin">
+                            <xsl:value-of select="Lupin" />
+                        </th>
+                        <th id="milk">
+                            <xsl:value-of select="milk" />
+                        </th>
+                        <th id="molluscs">
+                            <xsl:value-of select="Molluscs" />
+                        </th>
+                        <th id="mustard">
+                            <xsl:value-of select="Mustard" />
+                        </th>
+                        <th id="nuts">
+                            <xsl:value-of select="Nuts" />
+                        </th>
+                        <th id="peanuts">
+                            <xsl:value-of select="Peanuts" />
+                        </th>
+                        <th id="sesame">
+                            <xsl:value-of select="SesameSeeds" />
+                        </th>
+                        <th id="soya">
+                            <xsl:value-of select="Soya" />
+                        </th>
+                        <th id="sulph">
+                            <xsl:value-of select="SulphurDioxide" />
+                        </th>
+
+                    </TR>
+                </xsl:for-each>
+
+
+            </tbody>
+        </table>
+
+
+        <Style>
                            .checkbox input[type="checkbox"] {
                            opacity: 0;
                                }
@@ -177,63 +155,68 @@
 
 
 
-                            aside{ 
-                                  padding   solid black;
-                                  padding: 25px 50px 75px;
-                                  background-color: lightyellow;
-                                   align-content:center;
-                                    text-align: center;
-                                  }
-                                  form {
-                                  
-                                  text-align: center;}
-                                  }
-                                  h2{  text-align: center;
-                                  }
+                            
                         </Style>
-                               <aside>
-                           <h2> Add new Dishes</h2>
-      <h3> Enter Dish Name</h3>
-      <input type="text" name="First Name" placeholder="Dish Name"/>
-      <h3> Mark Allergen</h3>
+        <aside>
+            <h2> Add new Dishes</h2>
+            <h3> Enter Dish Name</h3>
+            <input type="text" name="First Name" placeholder="Dish Name" />
+            <h3> Mark Allergen</h3>
 
-      <!--Add form to ask views for input-->
-      <form>
-     <form action="/">
-         <div class="checkbox">
-    <input type="checkbox" name="celery" id="checkbox_1" value="X"><label for="checkbox_1">Celery</label>
-    <input type="checkbox" name="gluten" id="checkbox_2" value="X"><label for="checkbox_2">Gluten</label>
-    <input type="checkbox" name="crustaceous" id="checkbox_3" value="X"><label for="checkbox_3">Crustaceous</label>
-    <input type="checkbox" name="eggs" id="checkbox_4" value="X"><label for="checkbox_4">Eggs</label>
-    <input type="checkbox" name="fish" id="checkbox_5" value="X"><label for="checkbox_5">Fish</label>
-    <input type="checkbox" name="lupin" id="checkbox_6" value="X"><label for="checkbox_6">Lupin</label>
-    <input type="checkbox" name="Milk" id="checkbox_7" value="X"><label for="checkbox_7">Milk</label>
-    <input type="checkbox" name="molluscs" id="checkbox_8" value="X"><label for="checkbox_8">Molluscs</label>
-    <input type="checkbox" name="mustard" id="checkbox_9" value="X"><label for="checkbox_9">Mustard</label>
-    <input type="checkbox" name="nuts" id="checkbox_10" value="X"><label for="checkbox_10">Nuts</label>
-    <input type="checkbox" name="peanuts" id="checkbox_11" value="X"><label for="checkbox_11">Peanuts</label>
-     <input type="checkbox" name="sesame" id="checkbox_12" value="X"><label for="checkbox_12">SesameSeeds</label>
-     <input type="checkbox" name="soya" id="checkbox_13" value="X"><label for="checkbox_13">Soya</label>
-     <input type="checkbox" name="suphur" id="checkbox_14" value="X"><label for="checkbox_14">SulphurDioxide</label><br><br>
-</div>
-  
-</form>
-      <input type="submit" onclick="myFunction()" value="Add Dish"/>
-       <input type="submit" value="Delete Dish"/><br>
- 
+            <!--Add form to ask views for input-->
+            <form>
+                <form action="/">
+                    <div class="checkbox">
+                        <input type="checkbox" name="celery" id="checkbox_1" value="X">
+                            <label for="checkbox_1">Celery</label>
+                            <input type="checkbox" name="gluten" id="checkbox_2" value="X">
+                                <label for="checkbox_2">Gluten</label>
+                                <input type="checkbox" name="crustaceous" id="checkbox_3" value="X">
+                                    <label for="checkbox_3">Crustaceous</label>
+                                    <input type="checkbox" name="eggs" id="checkbox_4" value="X">
+                                        <label for="checkbox_4">Eggs</label>
+                                        <input type="checkbox" name="fish" id="checkbox_5" value="X">
+                                            <label for="checkbox_5">Fish</label>
+                                            <input type="checkbox" name="lupin" id="checkbox_6" value="X">
+                                                <label for="checkbox_6">Lupin</label>
+                                                <input type="checkbox" name="Milk" id="checkbox_7" value="X">
+                                                    <label for="checkbox_7">Milk</label>
+                                                    <input type="checkbox" name="molluscs" id="checkbox_8" value="X">
+                                                        <label for="checkbox_8">Molluscs</label>
+                                                        <input type="checkbox" name="mustard" id="checkbox_9" value="X">
+                                                            <label for="checkbox_9">Mustard</label>
+                                                            <input type="checkbox" name="nuts" id="checkbox_10" value="X">
+                                                                <label for="checkbox_10">Nuts</label>
+                                                                <input type="checkbox" name="peanuts" id="checkbox_11" value="X">
+                                                                    <label for="checkbox_11">Peanuts</label>
+                                                                    <input type="checkbox" name="sesame" id="checkbox_12" value="X">
+                                                                        <label for="checkbox_12">SesameSeeds</label>
+                                                                        <input type="checkbox" name="soya" id="checkbox_13" value="X">
+                                                                            <label for="checkbox_13">Soya</label>
+                                                                            <input type="checkbox" name="suphur" id="checkbox_14" value="X">
+                                                                                <label for="checkbox_14">SulphurDioxide</label>
+                                                                                <br>
+                                                                                    <br>
+                    </div>
 
-      </form>
-     
-</div>
-</div>
- </aside>
+                </form>
 
-                  
- <footer>
-        <p> Developed by Yuri Braga 2017141 </p>
+                <input id="submit" type="submit" onclick="insert_Row()" value="Add Dish" />
+                <input type="button" onclick="insert_Row()" value="Insert row">
+                    <input type="submit" value="Delete Dish" />
+                    <br>
+            </form>
+
+            </div>
+            </div>
+        </aside>
+
+
+        <footer>
+            <p> Developed by Yuri Braga 2017141 </p>
         </footer>
-                    </body>
-                </html>
-                </xsl:template>
+        </body>
+        </html>
+    </xsl:template>
 
 </xsl:stylesheet>

@@ -1,4 +1,5 @@
 var http = require('http'),
+    path = require('path'),
     express = require('express'),
     fs = require('fs'),
     xmlParse = require('xslt-processor').xmlParse,
@@ -6,8 +7,15 @@ var http = require('http'),
 
     var router = express();
     var server = http.createServer(router);
+    router.use(express.static(path.resolve(__dirname, 'Views')));
 
-    router.get(`/`,function(req,res){
+    router.get('/', function(req, res){
+
+    res.render('index');
+
+})
+
+    router.get(`/get/html`,function(req,res){
 
         res.writeHead(200, {'Content-Type':'text/html'});
 
@@ -29,5 +37,7 @@ var http = require('http'),
         console.log('Server is listening on port: ',addr.address+ ':'+ addr.port)
 
     });
+
+    
 
 
