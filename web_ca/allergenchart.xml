@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <allergen>
   <item>
-    <rId>1</rId>
+    <rId>
+      <input name="item0" type="checkbox"/>
+    </rId>
     <Dishes>Prawn Risotto</Dishes>
     <Celery>X</Celery>
     <Gluten> </Gluten>
@@ -19,7 +21,9 @@
     <SulphurDioxide/>
   </item>
   <item>
-    <rId>2</rId>
+    <rId>
+      <input name="item1" type="checkbox"/>
+    </rId>
     <Dishes>Tuna Salad</Dishes>
     <Celery>X</Celery>
     <Gluten> </Gluten>
@@ -37,110 +41,38 @@
     <SulphurDioxide/>
   </item>
   <item>
-    <rId>3</rId>
-    <Dishes>Milk Chocolate</Dishes>
-    <Celery/>
-    <Gluten> </Gluten>
-    <Crustaceous/>
-    <eggs/>
-    <Fish/>
-    <Lupin>	</Lupin>
+    <Dishes>Fish Pie</Dishes>
+    <Celery>x</Celery>
+    <Gluten>X</Gluten>
+    <eggs>X</eggs>
+    <Crustaceous>X</Crustaceous>
+    <Fish>X</Fish>
+    <Lupin/>
     <milk>X</milk>
-    <Molluscs/>
+    <Molluscs>X</Molluscs>
     <Mustard/>
-    <Nuts/>
     <Peanuts/>
+    <Nuts/>
     <SesameSeeds/>
-    <Soya>X</Soya>
+    <Soya/>
     <SulphurDioxide/>
   </item>
   <item>
-    <rId>4</rId>
     <Dishes>Lasagna</Dishes>
-    <Celery>X</Celery>
-    <Gluten>X </Gluten>
-    <Crustaceous/>
-    <eggs>X</eggs>
-    <Fish/>
-    <Lupin>	</Lupin>
-    <milk>X</milk>
-    <Molluscs/>
-    <Mustard/>
-    <Nuts/>
-    <Peanuts/>
-    <SesameSeeds/>
-    <Soya/>
-    <SulphurDioxide/>
-  </item>
-  <item>
-    <rId>5</rId>
-    <Dishes>Wine</Dishes>
-    <Celery/>
-    <Gluten> </Gluten>
-    <Crustaceous/>
-    <eggs/>
-    <Fish/>
-    <Lupin>	</Lupin>
-    <milk/>
-    <Molluscs/>
-    <Mustard/>
-    <Nuts/>
-    <Peanuts/>
-    <SesameSeeds/>
-    <Soya/>
-    <SulphurDioxide>X</SulphurDioxide>
-  </item>
-  <item>
-    <rId>6</rId>
-    <Dishes>Pancake</Dishes>
-    <Celery/>
-    <Gluten>X </Gluten>
-    <Crustaceous/>
-    <eggs>X</eggs>
-    <Fish/>
-    <Lupin>	</Lupin>
-    <milk>X</milk>
-    <Molluscs/>
-    <Mustard/>
-    <Nuts/>
-    <Peanuts/>
-    <SesameSeeds/>
-    <Soya/>
-    <SulphurDioxide>X</SulphurDioxide>
-  </item>
-  <item>
-    <rId>7</rId>
-    <Dishes>White Bread</Dishes>
-    <Celery/>
-    <Gluten>X </Gluten>
-    <Crustaceous/>
-    <eggs/>
-    <Fish/>
-    <Lupin>	</Lupin>
-    <milk>X</milk>
-    <Molluscs/>
-    <Mustard/>
-    <Nuts/>
-    <Peanuts/>
-    <SesameSeeds/>
-    <Soya/>
-    <SulphurDioxide/>
-  </item>
-  <item>
-    <Dishes>Peanut Butter Pie</Dishes>
-    <Celery/>
+    <Celery>x</Celery>
     <Gluten>x</Gluten>
-    <eggs>x</eggs>
+    <eggs/>
     <Crustaceous/>
     <Fish/>
     <Lupin/>
     <milk>x</milk>
     <Molluscs/>
     <Mustard/>
-    <Peanuts>x</Peanuts>
-    <Nuts>x</Nuts>
-    <SesameSeeds>x</SesameSeeds>
+    <Peanuts/>
+    <Nuts/>
+    <SesameSeeds/>
     <Soya/>
     <SulphurDioxide/>
   </item>
+  
 </allergen>
