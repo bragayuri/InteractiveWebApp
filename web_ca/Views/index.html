@@ -8,6 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   
+  
 
     <title>Allergen Chart Table</title>
   <!-- Bootstrap core CSS -->
@@ -59,7 +60,44 @@
         
       </div>
       <div style="background-color: rgb(242, 227, 206,0.9)"><div id="results" class="col-lg-12" ></div>
-       </div>
+      
+      
+       
+       <div id="buttons" class="col-lg-12 text-center" background-color: rgb(242, 227, 206,0.9)>
+        
+      
+            <div class="col-lg-4 text-center order-2">
+           
+            <form enctype="application/json" action="/post/json" method="post">
+                <div class="form-group">
+                   
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="Dishes" placeholder="Dish">
+                     
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="text" name="Celery" placeholder="Celery">
+                    <input class="form-control" type="text" name="Gluten" placeholder="Gluten">
+                    <input class="form-control" type="text" name="eggs" placeholder="eggs">
+                    
+                </div>
+                <button type="submit" class="btn btn-primary">ADD DISH</button>
+            </form>
+               
+                    
+                    <br>
+                  
+
+          
+
+      <div> 
+      
+      </div>
+
+       
+   
+  
        
     </div>
   </div>
@@ -68,7 +106,10 @@
  <script src="jQuery/jquery.min.js"></script>
  <script src="jQuery/table.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
+
 </body>
+ 
   <footer>
             <p> Developed by Yuri Braga 2017141 </p>
         </footer>

@@ -1,166 +1,156 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<?xml-stylesheet type="text/xsl" href="allergen.xsl"?>
-
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <allergen>
-	<item>
-
-		<rId>1</rId>
-        <Dishes>Prawn Risotto</Dishes>
-
-		<Celery>X</Celery>
-	    <Gluten> </Gluten>
-	    <Crustaceous>X</Crustaceous>
-		<eggs></eggs>
-		<Fish></Fish>
-		<Lupin>	</Lupin>
-		<milk>X</milk>
-		<Molluscs>X</Molluscs>
-		<Mustard></Mustard>
-		<Nuts></Nuts>
-		<Peanuts></Peanuts>
-		<SesameSeeds></SesameSeeds>
-		<Soya></Soya>
-		<SulphurDioxide></SulphurDioxide>
-
-		</item>
-
-			<item>
-
-		<rId>2</rId>
-
-		<Dishes>Tuna Salad</Dishes>
-
-		<Celery>X</Celery>
-	    <Gluten> </Gluten>
-	    <Crustaceous></Crustaceous>
-		<eggs>X</eggs>
-		<Fish>X</Fish>
-		<Lupin>	</Lupin>
-		<milk>X</milk>
-		<Molluscs></Molluscs>
-		<Mustard>X</Mustard>
-		<Nuts></Nuts>
-		<Peanuts></Peanuts>
-		<SesameSeeds></SesameSeeds>
-		<Soya></Soya>
-		<SulphurDioxide></SulphurDioxide>
-
-		</item>
-
-		<item>
-
-		<rId>3</rId>
-
-		<Dishes>Milk Chocolate</Dishes>
-
-		<Celery></Celery>
-	    <Gluten> </Gluten>
-	    <Crustaceous></Crustaceous>
-		<eggs></eggs>
-		<Fish></Fish>
-		<Lupin>	</Lupin>
-		<milk>X</milk>
-		<Molluscs></Molluscs>
-		<Mustard></Mustard>
-		<Nuts></Nuts>
-		<Peanuts></Peanuts>
-		<SesameSeeds></SesameSeeds>
-		<Soya>X</Soya>
-		<SulphurDioxide></SulphurDioxide>
-
-		</item>
-
-		<item>
-
-		<rId>4</rId>
-
-		<Dishes>Lasagna</Dishes>
-
-		<Celery>X</Celery>
-	    <Gluten>X </Gluten>
-	    <Crustaceous></Crustaceous>
-		<eggs>X</eggs>
-		<Fish></Fish>
-		<Lupin>	</Lupin>
-		<milk>X</milk>
-		<Molluscs></Molluscs>
-		<Mustard></Mustard>
-		<Nuts></Nuts>
-		<Peanuts></Peanuts>
-		<SesameSeeds></SesameSeeds>
-		<Soya></Soya>
-		<SulphurDioxide></SulphurDioxide>
-
-		</item>
-
-		<item>
-
-		<rId>5</rId>
-
-		<Dishes>Wine</Dishes>
-
-		<Celery></Celery>
-	    <Gluten> </Gluten>
-	    <Crustaceous></Crustaceous>
-		<eggs></eggs>
-		<Fish></Fish>
-		<Lupin>	</Lupin>
-		<milk></milk>
-		<Molluscs></Molluscs>
-		<Mustard></Mustard>
-		<Nuts></Nuts>
-		<Peanuts></Peanuts>
-		<SesameSeeds></SesameSeeds>
-		<Soya></Soya>
-		<SulphurDioxide>X</SulphurDioxide>
-
-		</item>
-
-			<item>
-
-		<rId>6</rId>
-
-		<Dishes>Pancake</Dishes>
-
-		<Celery></Celery>
-	    <Gluten>X </Gluten>
-	    <Crustaceous></Crustaceous>
-		<eggs>X</eggs>
-		<Fish></Fish>
-		<Lupin>	</Lupin>
-		<milk>X</milk>
-		<Molluscs></Molluscs>
-		<Mustard></Mustard>
-		<Nuts></Nuts>
-		<Peanuts></Peanuts>
-		<SesameSeeds></SesameSeeds>
-		<Soya></Soya>
-		<SulphurDioxide>X</SulphurDioxide>
-
-		</item>
-<item>
-
-		<rId>7</rId>
-
-		<Dishes>White Bread</Dishes>
-
-		<Celery></Celery>
-	    <Gluten>X </Gluten>
-	    <Crustaceous></Crustaceous>
-		<eggs></eggs>
-		<Fish></Fish>
-		<Lupin>	</Lupin>
-		<milk>X</milk>
-		<Molluscs></Molluscs>
-		<Mustard></Mustard>
-		<Nuts></Nuts>
-		<Peanuts></Peanuts>
-		<SesameSeeds></SesameSeeds>
-		<Soya></Soya>
-		<SulphurDioxide></SulphurDioxide>
-
-		</item>
-
-
-
+  <item>
+    <rId>1</rId>
+    <Dishes>Prawn Risotto</Dishes>
+    <Celery>X</Celery>
+    <Gluten> </Gluten>
+    <Crustaceous>X</Crustaceous>
+    <eggs/>
+    <Fish/>
+    <Lupin>	</Lupin>
+    <milk>X</milk>
+    <Molluscs>X</Molluscs>
+    <Mustard/>
+    <Nuts/>
+    <Peanuts/>
+    <SesameSeeds/>
+    <Soya/>
+    <SulphurDioxide/>
+  </item>
+  <item>
+    <rId>2</rId>
+    <Dishes>Tuna Salad</Dishes>
+    <Celery>X</Celery>
+    <Gluten> </Gluten>
+    <Crustaceous/>
+    <eggs>X</eggs>
+    <Fish>X</Fish>
+    <Lupin>	</Lupin>
+    <milk>X</milk>
+    <Molluscs/>
+    <Mustard>X</Mustard>
+    <Nuts/>
+    <Peanuts/>
+    <SesameSeeds/>
+    <Soya/>
+    <SulphurDioxide/>
+  </item>
+  <item>
+    <rId>3</rId>
+    <Dishes>Milk Chocolate</Dishes>
+    <Celery/>
+    <Gluten> </Gluten>
+    <Crustaceous/>
+    <eggs/>
+    <Fish/>
+    <Lupin>	</Lupin>
+    <milk>X</milk>
+    <Molluscs/>
+    <Mustard/>
+    <Nuts/>
+    <Peanuts/>
+    <SesameSeeds/>
+    <Soya>X</Soya>
+    <SulphurDioxide/>
+  </item>
+  <item>
+    <rId>4</rId>
+    <Dishes>Lasagna</Dishes>
+    <Celery>X</Celery>
+    <Gluten>X </Gluten>
+    <Crustaceous/>
+    <eggs>X</eggs>
+    <Fish/>
+    <Lupin>	</Lupin>
+    <milk>X</milk>
+    <Molluscs/>
+    <Mustard/>
+    <Nuts/>
+    <Peanuts/>
+    <SesameSeeds/>
+    <Soya/>
+    <SulphurDioxide/>
+  </item>
+  <item>
+    <rId>5</rId>
+    <Dishes>Wine</Dishes>
+    <Celery/>
+    <Gluten> </Gluten>
+    <Crustaceous/>
+    <eggs/>
+    <Fish/>
+    <Lupin>	</Lupin>
+    <milk/>
+    <Molluscs/>
+    <Mustard/>
+    <Nuts/>
+    <Peanuts/>
+    <SesameSeeds/>
+    <Soya/>
+    <SulphurDioxide>X</SulphurDioxide>
+  </item>
+  <item>
+    <rId>6</rId>
+    <Dishes>Pancake</Dishes>
+    <Celery/>
+    <Gluten>X </Gluten>
+    <Crustaceous/>
+    <eggs>X</eggs>
+    <Fish/>
+    <Lupin>	</Lupin>
+    <milk>X</milk>
+    <Molluscs/>
+    <Mustard/>
+    <Nuts/>
+    <Peanuts/>
+    <SesameSeeds/>
+    <Soya/>
+    <SulphurDioxide>X</SulphurDioxide>
+  </item>
+  <item>
+    <rId>7</rId>
+    <Dishes>White Bread</Dishes>
+    <Celery/>
+    <Gluten>X </Gluten>
+    <Crustaceous/>
+    <eggs/>
+    <Fish/>
+    <Lupin>	</Lupin>
+    <milk>X</milk>
+    <Molluscs/>
+    <Mustard/>
+    <Nuts/>
+    <Peanuts/>
+    <SesameSeeds/>
+    <Soya/>
+    <SulphurDioxide/>
+  </item>
+  <item>
+    <Dishes>Bread</Dishes>
+    <Celery>x</Celery>
+  </item>
+  <item>
+    <Dishes>x</Dishes>
+    <Celery>xx</Celery>
+  </item>
+  <item>
+    <Dishes>ss</Dishes>
+    <Celery/>
+  </item>
+  <item>
+    <Dishes>Apple Pie</Dishes>
+    <Celery>x</Celery>
+  </item>
+  <item>
+    <Dishes>Batata</Dishes>
+    <Celery>X</Celery>
+    <Gluten>X</Gluten>
+  </item>
+  <item>
+    <Dishes>pasta Salad</Dishes>
+    <Celery>x</Celery>
+    <Gluten>x</Gluten>
+    <eggs>x</eggs>
+  </item>
 </allergen>

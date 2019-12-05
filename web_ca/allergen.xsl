@@ -3,8 +3,9 @@
 
     <xsl:template match="/">
 
-
+     <div class="col-lg-12 text-center">
         <table id="table" border="2" class="indent" style="text-align:center;">
+            <html>
 
 
             <thread>
@@ -87,6 +88,7 @@
 
             </tbody>
         </table>
+        </div>
 
 
         <Style>
@@ -157,17 +159,14 @@
 
                             
                         </Style>
-        <aside>
-            <h2> Add new Dishes</h2>
-            <h3> Enter Dish Name</h3>
-            <input type="text" name="First Name" placeholder="Dish Name" />
-            <h3> Mark Allergen</h3>
+        <div class="col-lg-12 text-center">
+            
 
             <!--Add form to ask views for input-->
            
             <form>
                 <form action="/">
-                    <div class="checkbox">
+                    <div class="checkbox" >
                         <input type="checkbox" name="celery" id="checkbox_1" value="X">
                             <label for="checkbox_1">Celery</label>
                             <input type="checkbox" name="gluten" id="checkbox_2" value="X">
@@ -197,20 +196,18 @@
                                                                             <input type="checkbox" name="suphur" id="checkbox_14" value="X">
                                                                                 <label for="checkbox_14">SulphurDioxide</label>
                                                                                 <br>
-                                                                                    <br>
+                                                                                    
                     </div>
 
                 </form>
                  
-                <input id="submit" type="submit" onclick="insert_Row()" value="Add Dish" />
-                <input type="button" onclick="insert_Row()" value="Insert row">
-                    <input type="submit" value="Delete Dish" />
+               
                     <br>
             </form>
 
             </div>
             </div>
-        </aside>
+        </div>
 
 
         

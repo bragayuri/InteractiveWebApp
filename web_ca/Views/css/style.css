@@ -3,9 +3,13 @@ h1 {
   margin-left: 20px;
 }
 
-#results tr:nth-child(even){background-color: #f5e8d5;}
+#results tr:nth-child(even){background-color: #f7e5cb;}
 
-#results tr:nth-child(even){background-color: #ccc0ad;}
+#results tr:nth-child(even){background-color: #f5cf92;}
 
 #results tr:hover {background-color: rgb(255, 219, 163);}
+
+footer{
+    color: white;
+}
 
