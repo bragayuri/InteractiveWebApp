@@ -2,10 +2,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 
     <xsl:template match="/">
+    <html>
 
      <div class="col-lg-12 text-center">
         <table id="table" border="2" class="indent" style="text-align:center;">
-            <html>
+            
 
 
             <thread>
@@ -89,6 +90,7 @@
             </tbody>
         </table>
         </div>
+        </html>
 
 
         <Style>
@@ -212,7 +214,7 @@
 
         
         </body>
-        </html>
+        
     </xsl:template>
 
 </xsl:stylesheet>

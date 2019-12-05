@@ -31,7 +31,7 @@ router.post('/post/json', function(req, res){
         console.log(obj);
         xmlFileToJs('allergenchart.xml', function(err, result){
             if(err) throw (err);
-                result.allergen.item.push({'Dishes': obj.Dishes, 'Celery': obj.Celery, 'Gluten':obj.Gluten, 'eggs':obj.eggs, 'Crustaceous':obj.Crustaceous, 'Fish':obj.Fish, 'Lupin':obj.Lupin,'milk':obj.milk,'Molluscs':obj.Molluscs,'Mustard':obj.Mustard,'Nuts':obj.Nuts,'SesameSeeds':obj.SesameSeeds,'Soya':obj.Soya,'SulphurDioxide':obj.SulphurDioxide });
+                result.allergen.item.push({'Dishes': obj.Dishes, 'Celery': obj.Celery, 'Gluten':obj.Gluten, 'eggs':obj.eggs, 'Crustaceous':obj.Crustaceous, 'Fish':obj.Fish, 'Lupin':obj.Lupin,'milk':obj.milk,'Molluscs':obj.Molluscs,'Mustard':obj.Mustard,'Peanuts':obj.Peanuts,'Nuts':obj.Nuts,'SesameSeeds':obj.SesameSeeds,'Soya':obj.Soya,'SulphurDioxide':obj.SulphurDioxide });
                 console.log(result);
                 jsToXmlFile('allergenchart.xml', result, function(err){
                     if(err) console.log(err);

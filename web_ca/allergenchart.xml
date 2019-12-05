@@ -127,30 +127,20 @@
     <SulphurDioxide/>
   </item>
   <item>
-    <Dishes>Bread</Dishes>
-    <Celery>x</Celery>
-  </item>
-  <item>
-    <Dishes>x</Dishes>
-    <Celery>xx</Celery>
-  </item>
-  <item>
-    <Dishes>ss</Dishes>
+    <Dishes>Peanut Butter Pie</Dishes>
     <Celery/>
-  </item>
-  <item>
-    <Dishes>Apple Pie</Dishes>
-    <Celery>x</Celery>
-  </item>
-  <item>
-    <Dishes>Batata</Dishes>
-    <Celery>X</Celery>
-    <Gluten>X</Gluten>
-  </item>
-  <item>
-    <Dishes>pasta Salad</Dishes>
-    <Celery>x</Celery>
     <Gluten>x</Gluten>
     <eggs>x</eggs>
+    <Crustaceous/>
+    <Fish/>
+    <Lupin/>
+    <milk>x</milk>
+    <Molluscs/>
+    <Mustard/>
+    <Peanuts>x</Peanuts>
+    <Nuts>x</Nuts>
+    <SesameSeeds>x</SesameSeeds>
+    <Soya/>
+    <SulphurDioxide/>
   </item>
 </allergen>
