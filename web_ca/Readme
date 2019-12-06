@@ -1,0 +1,14 @@
+# InteractiveWebApp
+
+Dishes and its allergen content was idealized thinking about my background in nutrition 
+summed with the skills I retrieved over this semester with this module.
+When developing this project, the main idea was focused on creating a simple 
+idea which could be deliverable using all the technologies we have been learning in class.
+
+How to use it.
+Table and its Allergen follows the Food Standard Agency UK and it is displayed as soon
+Index.html is open.
+Below the table User must write Dish`s name and write an X for each allergen ingredient
+a dish shall contain.
+Add Dish Button-> After text fields are filled click to add element to the table.
+Delete Dish Button->After text fields are filled click to delete element to the table.
