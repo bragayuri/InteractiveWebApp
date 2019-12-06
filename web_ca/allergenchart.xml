@@ -43,13 +43,13 @@
   <item>
     <Dishes>Fish Pie</Dishes>
     <Celery>x</Celery>
-    <Gluten>X</Gluten>
-    <eggs>X</eggs>
-    <Crustaceous>X</Crustaceous>
-    <Fish>X</Fish>
+    <Gluten>x</Gluten>
+    <eggs>x</eggs>
+    <Crustaceous>x</Crustaceous>
+    <Fish>x</Fish>
     <Lupin/>
-    <milk>X</milk>
-    <Molluscs>X</Molluscs>
+    <milk>x</milk>
+    <Molluscs>x</Molluscs>
     <Mustard/>
     <Peanuts/>
     <Nuts/>
@@ -60,8 +60,8 @@
   <item>
     <Dishes>Lasagna</Dishes>
     <Celery>x</Celery>
-    <Gluten>x</Gluten>
-    <eggs/>
+    <Gluten/>
+    <eggs>x</eggs>
     <Crustaceous/>
     <Fish/>
     <Lupin/>
@@ -74,5 +74,38 @@
     <Soya/>
     <SulphurDioxide/>
   </item>
-  
+  <item>
+    <Dishes>Wine</Dishes>
+    <Celery/>
+    <Gluten/>
+    <eggs/>
+    <Crustaceous/>
+    <Fish/>
+    <Lupin/>
+    <milk/>
+    <Molluscs/>
+    <Mustard/>
+    <Peanuts/>
+    <Nuts/>
+    <SesameSeeds/>
+    <Soya/>
+    <SulphurDioxide>x</SulphurDioxide>
+  </item>
+  <item>
+    <Dishes>Bread</Dishes>
+    <Celery/>
+    <Gluten>x</Gluten>
+    <eggs/>
+    <Crustaceous/>
+    <Fish/>
+    <Lupin/>
+    <milk/>
+    <Molluscs/>
+    <Mustard/>
+    <Peanuts/>
+    <Nuts/>
+    <SesameSeeds>x</SesameSeeds>
+    <Soya/>
+    <SulphurDioxide/>
+  </item>
 </allergen>
