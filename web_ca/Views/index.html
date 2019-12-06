@@ -3,6 +3,12 @@
 
 <head>
 
+ <!-- This Index file is located inside the Views folder which is public.
+ This file will hold my html code and also Bootstrap code.
+ Author Yuri Braga 2017141
+ Code extracted from https://github.com/mikhail-cct/CA1-In-class-Demo 
+ BootStrap: https://github.com/BlackrockDigital/startbootstrap-bare -->
+
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta name="description" content="">
@@ -57,22 +63,23 @@
       <div style="background-color: rgb(242, 227, 206, 0.6)" class="col-lg-12 text-center">
         <h1 class="mt-5">DISHES AND THEIR ALLERGEN CONTENT  </h1>
         <p class="lead"></p>
-        
+        <!-- Div with Table coming from XSL file -->
       </div>
       <div style="background-color: rgb(242, 227, 206,0.9)"><div id="results" class="col-lg-12 text-center" ></div>
       
       
-       
+       <!-- Div to organize the User Input -->
        <div id="buttons" class="col-lg-12 text-center" background-color: rgb(242, 227, 206,0.9)>
         
       
             <div class="col-lg-4 text-center order-2">
-           
+           <!-- This form will organize each element to be added to the table -->
             <form enctype="application/json" action="/post/json" method="post">
                 <div class="form-group">
                    
                 </div>
                 <div class="form-group">
+                <!-- Here start the input text fields -->
                     <input class="form-control" type="text" name="Dishes" placeholder="Dish">
                      
                 </div>
@@ -92,10 +99,12 @@
                                       <input class="form-control" type="text" name="Soya" placeholder="Soya">
                                        <input class="form-control" type="text" name="SulphurDioxide" placeholder="SulphurDioxide">
                 </div>
+                <!-- This button add a dish to the table -->
                 <button type="submit" class="btn btn-primary">ADD DISH</button>
                 
                     <p class="text-muted">To delete a Dish, click the required row first</p>
             </form>
+            <!-- This button delete a dish to the table -->
                  <button id="delete" class="btn btn-block btn-danger">Delete</button>
                
                     

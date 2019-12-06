@@ -1,9 +1,24 @@
+
 <?xml version="1.0" ?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
+<!-- Referencing my xml root element -->
+<xsl:template match="/">
 
-    <xsl:template match="/">
+
+<!-- Author Yuri Braga
+ Code Referencing: 
+Code extracted from https://github.com/mikhail-cct/CA1-In-class-Demo -->
+
+<!-- This xsl file will be blended with my xml using Node.js and generates my Index.html -->
+
+
+
+
+
+
+   
  
-
+   <!-- This Div will hold my table -->
      <div class="col-lg-12 text-center">
         <table id="table" border="2" class="indent" style="text-align:center;">
             
@@ -33,6 +48,7 @@
                 </tr>
             </thread>
             <tbody>
+                <!-- Here I populate my table using X Path -->
                 <xsl:for-each select="allergen/item">
                      <tr id="{position()}">
                         <th id="id">
@@ -40,6 +56,8 @@
                             <xsl:value-of select="rId" />
                            
                         </th>
+                        <!-- Each loop statement is applied to each single collumn in order to populate the table
+                        using data from the xml file. -->
                         <th id="dishes">
                             <xsl:value-of select="Dishes" />
                         </th>
@@ -104,7 +122,7 @@
         <div class="col-lg-12 text-center">
             
 
-            <!--Add form to ask views for input-->
+          
            
            
                

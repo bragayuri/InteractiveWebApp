@@ -1,3 +1,8 @@
+//  Author: Yuri Braga
+// Code Referencing: https://github.com/mikhail-cct/CA1-In-class-Demo
+// Code used here was extracted and adapted to this project from the Git page above.
+
+// Function to draw Table from XML to HTML.
 function draw_table(){
     $("#results").empty();
     $.getJSONuncached = function(url) {
@@ -21,16 +26,8 @@ var button = document.getElementById("submit");
 
  button.onclick=insertRow;
 
-// function insertRow(){
 
-//   var table = document.getElementById("#table");
-//   var row = table.insertRow();
-//   var cell1 = newRow.insertCell(0);
-//   var cell2 = row.insertCell(1);
-//   cell1.innerHTML = "NEW CELL1";
-//   cell2.innerHTML = "NEW CELL2";
-// }
-
+// Function to select a row to delete it.
 function select_row()
 {
 	$("#table tbody tr[id]").click(function ()
@@ -42,7 +39,7 @@ function select_row()
 		delete_row(item);
 	})
 };
-
+// FUnction used to delete a row
 function delete_row(ent)
 {
 	$("#delete").click(function ()

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<allergen>
+
+<!-- Author: Yuri Braga 2017141 -->
+
+<!-- This XML file creates the structure for my table and places data on private.
+ User would not have access to this content -->
+
+<!-- my root element -->
+ <allergen> 
+
+    <!-- Each item element holds a dish and its ingredients -->
   <item>
     <rId>
       <input name="item0" type="checkbox"/>
@@ -14,26 +23,6 @@
     <milk>X</milk>
     <Molluscs>X</Molluscs>
     <Mustard/>
-    <Nuts/>
-    <Peanuts/>
-    <SesameSeeds/>
-    <Soya/>
-    <SulphurDioxide/>
-  </item>
-  <item>
-    <rId>
-      <input name="item1" type="checkbox"/>
-    </rId>
-    <Dishes>Tuna Salad</Dishes>
-    <Celery>X</Celery>
-    <Gluten> </Gluten>
-    <Crustaceous/>
-    <eggs>X</eggs>
-    <Fish>X</Fish>
-    <Lupin>	</Lupin>
-    <milk>X</milk>
-    <Molluscs/>
-    <Mustard>X</Mustard>
     <Nuts/>
     <Peanuts/>
     <SesameSeeds/>

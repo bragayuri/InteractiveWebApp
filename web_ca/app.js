@@ -1,3 +1,10 @@
+// Author: Yuri Braga
+// Reference:https://github.com/mikhail-cct/CA1-In-class-Demo
+// Code used was extracted and adapted to this project from the link above.
+//  This Javascript file will be my runner in order to create interactions
+// between user and files.
+
+// Here I will receive the necessary modules in order to run the program.
 var http = require('http'),
     path = require('path'),
     express = require('express'),
@@ -31,6 +38,7 @@ router.post('/post/json', function(req, res){
         console.log(obj);
         xmlFileToJs('allergenchart.xml', function(err, result){
             if(err) throw (err);
+            //  this line is where it was adapted to this project
                 result.allergen.item.push({'Dishes': obj.Dishes, 'Celery': obj.Celery, 'Gluten':obj.Gluten, 'eggs':obj.eggs, 'Crustaceous':obj.Crustaceous, 'Fish':obj.Fish, 'Lupin':obj.Lupin,'milk':obj.milk,'Molluscs':obj.Molluscs,'Mustard':obj.Mustard,'Peanuts':obj.Peanuts,'Nuts':obj.Nuts,'SesameSeeds':obj.SesameSeeds,'Soya':obj.Soya,'SulphurDioxide':obj.SulphurDioxide });
                 console.log(result);
                 jsToXmlFile('allergenchart.xml', result, function(err){
